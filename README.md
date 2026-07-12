@@ -1,8 +1,8 @@
 # Hey, I'm Juan!
 
-I currently live in Colombia.
-I like anime and volleyball.
-I am currently studying Phyton, JavaScript, HTML, CSS
+-I currently live in Colombia.
+-I like anime and volleyball.
+-I am currently studying Phyton, JavaScript, HTML, CSS
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/IngBenavides?tab=repositories)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sebastián-benavides-057674421?utm_source=share_via&utm_content=profile&utm_medium=member_android)
