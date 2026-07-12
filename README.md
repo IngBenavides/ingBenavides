@@ -1,16 +1,12 @@
-## Hi there 👋
+# Hey, I'm Juan!
 
-<!--
-**IngBenavides/ingBenavides** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I currently live in Colombia.
+I like anime and volleyball.
+I am currently studying Phyton, JavaScript, HTML, CSS
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/IngBenavides?tab=repositories)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sebastián-benavides-057674421?utm_source=share_via&utm_content=profile&utm_medium=member_android)
+[![instagram](https://img.shields.io/badge/instagram-1DA1F2?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/sebas_bm16?igsh=NXE0OWwxN2RlZHJz)
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Github Stats
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=IngBenavides&theme=nord)](https://git.io/streak-stats)
