@@ -10,3 +10,39 @@
 
 ## Github Stats
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=IngBenavides&theme=nord)](https://git.io/streak-stats)
+
+#  Juan Sebastián Benavides Murillo
+
+## 📄 Hoja de Vida
+
+**Estudiante de Bachillerato** | **Contrato de Aprendizaje SENA**
+
+---
+
+### 📞 Información de Contacto
+- **Teléfono:** [322 787 3822](tel:3227873822)
+- **Correo:** [jbenavides0622@gmail.com](mailto:jbenavides0622@gmail.com)
+
+---
+
+### 📚 Educación
+**I.E. Chiloe Sacha**  
+*2014 - 2025*
+
+---
+
+### 💼 Experiencia
+**Contrato de Aprendizaje**  
+**Servicio Nacional de Aprendizaje (SENA)**
+
+---
+
+### ✨ Habilidades
+- **Comunicación efectiva**
+- **Resolución de problemas**
+- **Trabajo en equipo**
+
+---
+
+
+---
