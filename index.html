@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Sebastián Benavides Murillo | Hoja de Vida</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .hero-bg {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        }
+        
+        .section-title {
+            position: relative;
+        }
+        
+        .section-title:after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(to right, #3b82f6, #60a5fa);
+            border-radius: 9999px;
+        }
+        
+        .card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+        
+        .skill-pill {
+            transition: all 0.2s ease;
+        }
+        
+        .skill-pill:hover {
+            transform: scale(1.05);
+            background-color: #3b82f6;
+            color: white;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- Header -->
+    <header class="hero-bg text-white py-16">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <div class="flex justify-center mb-6">
+                <div class="w-32 h-32 bg-white/20 backdrop-blur-md rounded-2xl flex items-center justify-center border-4 border-white/30">
+                    <i class="fa-solid fa-user-tie text-6xl text-white"></i>
+                </div>
+            </div>
+            <h1 class="text-5xl font-bold mb-2 tracking-tight">Juan Sebastián Benavides Murillo</h1>
+            <p class="text-xl text-blue-100 mb-8">Estudiante | Aprendiz SENA</p>
+            
+            <!-- Contact Info -->
+            <div class="flex flex-wrap justify-center gap-6 text-sm">
+                <a href="tel:3227873822" class="flex items-center gap-2 hover:text-blue-200 transition-colors">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>322 787 3822</span>
+                </a>
+                <a href="mailto:jbenavides0622@gmail.com" class="flex items-center gap-2 hover:text-blue-200 transition-colors">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>jbenavides0622@gmail.com</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="max-w-4xl mx-auto px-6 py-12 grid md:grid-cols-12 gap-8">
+        <!-- Left Column -->
+        <div class="md:col-span-4 space-y-8">
+            
+            <!-- Educación -->
+            <div class="card bg-white rounded-3xl shadow-sm p-8 border border-gray-100">
+                <h2 class="section-title text-2xl font-semibold mb-6 flex items-center gap-3">
+                    <i class="fa-solid fa-graduation-cap text-blue-600"></i>
+                    Educación
+                </h2>
+                <div>
+                    <div class="font-semibold text-lg">I.E. Chiloe Sacha</div>
+                    <div class="text-gray-600">Bachillerato Académico</div>
+                    <div class="text-sm text-gray-500 mt-1">2014 — 2025</div>
+                    <div class="mt-4 text-sm leading-relaxed text-gray-600">
+                        Finalizando estudios de bachillerato con enfoque en desarrollo de habilidades técnicas y personales.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experiencia -->
+            <div class="card bg-white rounded-3xl shadow-sm p-8 border border-gray-100">
+                <h2 class="section-title text-2xl font-semibold mb-6 flex items-center gap-3">
+                    <i class="fa-solid fa-briefcase text-blue-600"></i>
+                    Experiencia Laboral
+                </h2>
+                <div>
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <div class="font-semibold">Contrato de Aprendizaje</div>
+                            <div class="text-blue-600">Servicio Nacional de Aprendizaje (SENA)</div>
+                        </div>
+                    </div>
+                    <div class="text-sm text-gray-500 mt-1">2024 — Actual</div>
+                    <ul class="mt-4 space-y-2 text-sm text-gray-600">
+                        <li class="flex gap-2">
+                            <span class="text-blue-500 mt-1">•</span>
+                            Aplicación práctica de conocimientos técnicos
+                        </li>
+                        <li class="flex gap-2">
+                            <span class="text-blue-500 mt-1">•</span>
+                            Desarrollo de competencias laborales
+                        </li>
+                        <li class="flex gap-2">
+                            <span class="text-blue-500 mt-1">•</span>
+                            Trabajo en entornos profesionales
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="md:col-span-8 space-y-8">
+            
+            <!-- Perfil Profesional -->
+            <div class="card bg-white rounded-3xl shadow-sm p-8 border border-gray-100">
+                <h2 class="section-title text-2xl font-semibold mb-6 flex items-center gap-3">
+                    <i class="fa-solid fa-user text-blue-600"></i>
+                    Perfil Profesional
+                </h2>
+                <p class="text-gray-600 leading-relaxed">
+                    Joven proactivo y comprometido, cursando el último año de bachillerato en la I.E. Chiloe Sacha. 
+                    Con experiencia en contrato de aprendizaje en el SENA, donde he desarrollado fuertes habilidades en 
+                    <strong>comunicación efectiva</strong>, <strong>resolución de problemas</strong> y <strong>trabajo en equipo</strong>.
+                </p>
+            </div>
+
+            <!-- Habilidades -->
+            <div class="card bg-white rounded-3xl shadow-sm p-8 border border-gray-100">
+                <h2 class="section-title text-2xl font-semibold mb-6 flex items-center gap-3">
+                    <i class="fa-solid fa-star text-blue-600"></i>
+                    Habilidades Clave
+                </h2>
+                <div class="flex flex-wrap gap-3">
+                    <div class="skill-pill bg-blue-50 text-blue-700 px-6 py-3 rounded-2xl font-medium flex items-center gap-2">
+                        <i class="fa-solid fa-comments"></i>
+                        Comunicación
+                    </div>
+                    <div class="skill-pill bg-blue-50 text-blue-700 px-6 py-3 rounded-2xl font-medium flex items-center gap-2">
+                        <i class="fa-solid fa-lightbulb"></i>
+                        Resolución de Problemas
+                    </div>
+                    <div class="skill-pill bg-blue-50 text-blue-700 px-6 py-3 rounded-2xl font-medium flex items-center gap-2">
+                        <i class="fa-solid fa-users"></i>
+                        Trabajo en Equipo
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Info -->
+            <div class="text-center text-gray-400 text-sm pt-8">
+                Hoja de vida actualizada • 2026
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Tailwind script already included via CDN
+    </script>
+</body>
+</html>
