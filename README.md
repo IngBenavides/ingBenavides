@@ -1,4 +1,4 @@
-# Hey, I'm Juan!
+# Hi, I'm Juan!
 
 -I currently live in Colombia.
 -I like anime and volleyball.
