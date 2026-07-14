@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Juan Sebastian Benavides Murillo </title>
+    <style>
+        /* Variables de diseño para cambiar colores fácilmente */
+        :root {
+            --primary-color: #1e293b; /* Azul oscuro principal */
+            --accent-color: #2563eb;  /* Azul brillante para resaltar */
+            --text-color: #334155;    /* Gris oscuro para el texto */
+            --bg-color: #f8fafc;      /* Fondo claro */
+            --card-bg: #ffffff;      /* Fondo de las secciones */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .cv-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            overflow: hidden;
+        }
+
+        /* Encabezado Principal */
+        header {
+            background-color: var(--primary-color);
+            color: #ffffff;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        header .subtitle {
+            font-size: 1.2rem;
+            color: #94a3b8;
+            font-weight: 400;
+        }
+
+        /* Contenido del CV */
+        .content {
+            padding: 30px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            font-size: 1.3rem;
+            color: var(--primary-color);
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* Sección Contacto */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 15px;
+            background: #f1f5f9;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .contact-item {
+            font-size: 0.95rem;
+        }
+
+        .contact-item strong {
+            color: var(--primary-color);
+        }
+
+        .contact-item a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+
+        /* Bloques de Experiencia y Educación */
+        .info-block {
+            margin-bottom: 20px;
+        }
+
+        .info-block:last-child {
+            margin-bottom: 0;
+        }
+
+        .info-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+            margin-bottom: 5px;
+        }
+
+        .info-title {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: var(--primary-color);
+        }
+
+        .info-date {
+            font-size: 0.9rem;
+            color: #64748b;
+            background: #e2e8f0;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        .info-desc {
+            font-size: 0.95rem;
+            padding-left: 5px;
+        }
+
+        /* Habilidades */
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+        }
+
+        .skills-list li {
+            background-color: #eff6ff;
+            color: var(--accent-color);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            border: 1px solid #bfdbfe;
+        }
+
+        /* Adaptación para pantallas pequeñas */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            header {
+                padding: 30px 20px;
+            }
+            header h1 {
+                font-size: 1.8rem;
+            }
+            .content {
+                padding: 20px;
+            }
+            .info-header {
+                flex-direction: column;
+                gap: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="cv-container">
+        
+        <!-- Encabezado con tu nombre y profesión -->
+        <header>
+            <h1>Juan Sebastian Benavides Murillo</h1>
+            <div class="subtitle">Analista y Desarrollador de Software</div>
+        </header>
+
+        <div class="content">
+            
+            <!-- Información de Contacto -->
+            <section>
+                <h2> Contacto</h2>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <strong>Email:</strong> 
+                        <a href="mailto:jbenavides0622@gmail.com">jbenavides0622@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>LinkedIn:</strong> 
+                        <a href="https://www.linkedin.com/in/sebastián-benavides-057674421?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">juan_Benavides</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experiencia Laboral -->
+            <section>
+                <h2> Experiencia Laboral</h2>
+                <div class="info-block">
+                    <div class="info-header">
+                        <span class="info-title">SENA</span>
+                        <span class="info-date">2026 - Actualidad</span>
+                    </div>
+                    <p class="info-desc">Contrato de aprendizaje.</p>
+                </div>
+            </section>
+
+            <!-- Educación -->
+            <section>
+                <h2>🎓 Educación</h2>
+                <div class="info-block">
+                    <div class="info-header">
+                        <span class="info-title">I.E Chiloe Soacha Ciudad Verde</span>
+                        <span class="info-date">2014 - 2025</span>
+                    </div>
+                    <p class="info-desc">Bachiller.</p>
+                </div>
+            </section>
+
+            <!-- Habilidades -->
+            <section>
+                <h2> Habilidades</h2>
+                <ul class="skills-list">
+                    <li>Trabajo en equipo</li>
+                    <li>Resolución de problemas</li>
+                    <li>Positivismo</li>
+                </ul>
+            </section>
+
+        </div>
+    </div>
+
+</body>
+</html>
